@@ -50,7 +50,7 @@ require([
         var _this = this;
 
         this.generateIframeUrl().then(function(url){
-            _this.insertIframe('<iframe class="'+ _this.conf.iframeClass +'" height="500" src="' + url +'" frameborder="0">&nbsp;</iframe>');
+            _this.insertIframe('<iframe class="'+ _this.conf.iframeClass +'" style="width:100%; box-sizing: border-box;" height="500" src="' + url +'" frameborder="0">&nbsp;</iframe>');
             _this.drawClarifyLink(url);
         });
     };

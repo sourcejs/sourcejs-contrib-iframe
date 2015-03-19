@@ -1,6 +1,6 @@
 {
   "name": "sourcejs-contrib-iframe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Robert Haritonov",
   "description": "Insert iframe into SourceJS spec."
 }
